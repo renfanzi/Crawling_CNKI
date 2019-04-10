@@ -15,9 +15,9 @@ requirements.txt文件里面
 主要运用Python+Selenium+ChromeDriver进行爬虫
 由于反爬虫太厉害，而且难度较大，所以用这种方法进行爬虫
 注意事项：
-  爬虫时候时间尽量再1分钟左右，否则cnki发生点击频繁而拒绝点击
-  如果 > 20s CNKI系统会死
-  如果还不行，记得driver.delete_cookies()每爬一个，清一次cookie
+    爬虫时候时间尽量再1分钟左右，否则cnki发生点击频繁而拒绝点击
+    如果 > 20s CNKI系统会死
+    如果还不行，记得driver.delete_cookies()每爬一个，清一次cookie
 ```
 ### 启动文件
 启动文件， main.py
