@@ -1,16 +1,16 @@
-##说明文档
+## 说明文档
     
         
-###环境
+### 环境
 ```
 python环境 == python3.6.3    
 系统环境 == win10_64
 ```
-###安装包
+### 安装包
 ```
 requirements.txt文件里面
 ```
-###原理
+### 原理
 ```
 主要运用Python+Selenium+ChromeDriver进行爬虫
 由于反爬虫太厉害，而且难度较大，所以用这种方法进行爬虫
@@ -19,10 +19,10 @@ requirements.txt文件里面
   如果 > 20s CNKI系统会死
   如果还不行，记得driver.delete_cookies()每爬一个，清一次cookie
 ```
-###启动文件
+### 启动文件
 启动文件， main.py
 
-###环境安装
+### 环境安装
 ```
 安装 Python -下载并配置好环境变量，shell输入：python -V 出现对应版本号即安装成功！
 安装pip（Python包管理工具）
