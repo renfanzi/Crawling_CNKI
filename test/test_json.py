@@ -1,0 +1,10 @@
+# -*- encoding:utf-8 -*-
+
+
+data = {'article_url': 'http://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=SWSL201400002&dbname=CJFDLASN2014', 'article_code': {'sfield': 'FN', 'dbCode': 'CJFD', 'filename': 'SWSL201400002', 'tableName': 'CJFDLASN2014', 'url': ''}, 'article_title': 'DF模式下第三种单位根检验的Bootstrap检验研究', 'article_author': [{'author': '江海峰', 'author_func': "TurnPageToKnet('au','江海峰','06147284');"}, {'author': '陶长琪', 'author_func': "TurnPageToKnet('au','陶长琪','08368003');"}], 'article_orgn': [{'orgn': '安徽工业大学商学院', 'orgn_func': "TurnPageToKnet('in','安徽工业大学商学院','0255231')"}, {'orgn': '江西财经大学信息管理学院', 'orgn_func': "TurnPageToKnet('in','江西财经大学信息管理学院','0188434')"}], 'article_summary': '根据单位根检验的流程,本文考察了DF模式下第三种单位根中的三类检验。提出了基于约束残差的Bootstrap检验方法,并利用不变原理、大数定律、Slutsky定理和埃奇沃斯展开方法证明该方法的合理性和有效性。同时借助蒙特卡洛模拟技术与临界值检验进行对比,模拟结果显示:传统的临界值检验水平失真严重;Hylleberg和Mizon提出的临界值检验虽然可以改善检验效果,但受漂移项和样本容量大小的影响而很难应用于实证分析中;Bootstrap检验方法不但具有满意的检验效果,而且还不受样本容量和漂移项取值的影响,因此可以在实证研究中广泛使用。\xa0', 'article_down_link': [{'down': 'CAJ下载', 'down_link': '/kns/download.aspx?filename=r9CVDlFWslVMHBlUrJGV2IjRWZXO2dWVkZXRktiMFZVZN92c2YUV3Z3VVBFeMVzQGFzanJlQnNWby1mRWlEaKVHaOB1L5J2VvA1RPRHahdVcIF3VudndzY3bzpmbxRTaNV3Mr92KN1Ed1h1K4lXWJZGOmx2RPJFW&tablename=CJFDLASN2014'}, {'down': 'PDF下载', 'down_link': '/kns/download.aspx?filename=r9CVDlFWslVMHBlUrJGV2IjRWZXO2dWVkZXRktiMFZVZN92c2YUV3Z3VVBFeMVzQGFzanJlQnNWby1mRWlEaKVHaOB1L5J2VvA1RPRHahdVcIF3VudndzY3bzpmbxRTaNV3Mr92KN1Ed1h1K4lXWJZGOmx2RPJFW&tablename=CJFDLASN2014&dflag=pdfdown'}], 'article_reference': [{'reference_title': '单位根过程联合检验的Bootstrap研究', 'reference_href': '/kcms/detail/detail.aspx?filename=TJYJ201304021&dbcode=CJFQ&dbname=CJFD2013&v='}, {'reference_title': 'ADF单位根检验中联合检验LM统计量研究', 'reference_href': '/kcms/detail/detail.aspx?filename=TJYJ201009016&dbcode=CJFQ&dbname=CJFD2010&v='}, {'reference_title': '单位根检验中的Wald统计量研究', 'reference_href': '/kcms/detail/detail.aspx?filename=SLJY200907014&dbcode=CJFQ&dbname=CJFD2009&v='}, {'reference_title': 'ADF单位根检验中联合检验F统计量研究', 'reference_href': '/kcms/detail/detail.aspx?filename=TJYJ200702013&dbcode=CJFQ&dbname=cjfd2007&v='}]}
+
+
+import json
+
+a = json.dumps(data)
+print(a)

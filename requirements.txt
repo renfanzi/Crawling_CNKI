@@ -1,0 +1,4 @@
+pymongo
+beautifulsoup4
+selenium
+requests
